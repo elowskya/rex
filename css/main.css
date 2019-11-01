@@ -245,7 +245,7 @@ i:hover {
     padding: 2%;
     background-color: white;
     vertical-align: top;
-    /* height: 75%; */
+    margin-bottom: 1%;
   }
   .card img {
       width: 100%;
