@@ -84,7 +84,7 @@ html {
  }
  main {
      background-image: url("../images/backgroundHeader.jpg");
-     width: 100%;
+     background-size: cover;
      margin: 0 auto;
      text-align: left;
      color: white;
