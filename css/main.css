@@ -365,7 +365,11 @@ footer h2 {
 }
 
 /* beginning of media queries */
-/* ipad screens */
+/* ipad plus screens */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+   
+}
+ /* ipad screens */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     section.figIcons {
         margin-left: 8%;
@@ -436,6 +440,10 @@ footer h2 {
     }
     .testimonials {
         height: 65vh;
+        /* background-image: none; */
+    }
+    .positionCover {
+        height: 82vh;
     }
     .testimonials .positionCover h2 {
         font-size: 200%;
@@ -446,6 +454,9 @@ footer h2 {
 }
 /* Below is for iphone 6,7,8 plus */
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
+    .carousel .text {
+        height: auto;
+    }
     div.text {
         height: 15vh;
     }
@@ -457,7 +468,7 @@ footer h2 {
     }
 }
 /* Below is for iphone 6,7,8 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+@media (min-width : 375px) and (max-width : 667px) { 
     #header a img {
         width: 20%;
         margin-left: 1%;
@@ -476,10 +487,11 @@ footer h2 {
         height: auto;
     }
     div.text {
-        height: 13vh;
+        height: auto;
     }
     .testimonials {
         height: 80vh;
+        /* height: 65vh; */
     }
     .testimonials .positionCover h2 {
         font-size: 200%;
@@ -618,11 +630,11 @@ address:first-child {
          height: auto;
      }
      div.text {
-         height: 10vh;
+         height: auto;
      }
-     .testimonials {
+     /* .testimonials {
          height: 82vh;
-     }
+     } */
      .testimonials .positionCover h2 {
          font-size: 200%;
      }
