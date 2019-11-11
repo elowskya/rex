@@ -29,13 +29,30 @@ html {
     position: absolute;
     z-index: 2;
  }
+ 
+ #headerContact img {
+        float: left;
+        margin-left: 3%;
+        width: 12%;
+        border-radius: 80%;
+        position: absolute;
+        z-index: 2;
+ }
+ main.contact {
+     background-image: url("../images/socialConnections.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .insideMainContact {
+     height: 30%;
+ }
  #navigation {
     background-color: #0077a3;
     border-bottom: solid 4px #f1830d;
     font-size: 24px;
     text-align: center;
     position: relative;
-    margin-top: 3%;
+    padding-top: 3%;
  }
  #navigation ul {
     z-index: 1;
