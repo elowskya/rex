@@ -1,5 +1,4 @@
 <h1>Front End Landing Page</h1>
-![]("images/rexITScreenGrabNew.PNG")
 <img src="images/rexITScreenGrabNew.PNG">
 
 <h2>DESCRIPTION</h2>
