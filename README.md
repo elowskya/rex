@@ -1,5 +1,5 @@
 <h1>Front End Landing Page</h1>
-<img src="rexITScreenGrabNew.PNG" width="200"/>
+![landingPage](images/rexITScreenGrabNew.PNG")
 
 <h2>DESCRIPTION</h2>
 <p>A front end landing page featuring:</p>
