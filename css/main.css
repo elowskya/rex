@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     background-color: #12278d;
     background-image: url("../images/handShake.jpg");
-    /* background-image: url("../images/handShake2.jpg"); */
     height: 100vh;
     color: #fff;
     text-align: center;
@@ -25,8 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1%;
  }
  #header img {
-    /* float: left; */
-    /* margin-left: 3%; */
     width: 12%;
     border-radius: 80%;
     position: absolute;
@@ -43,11 +40,7 @@ h1, h2, h3, h4, h5, h6 {
         position: absolute;
         z-index: 2;
  }
- /* main.contact {
-     background-image: url("../images/socialConnections.png");
-     background-repeat: no-repeat;
-     background-size: cover;
- } */
+
  .insideMainContact {
      height: 30%;
  }
@@ -454,7 +447,6 @@ footer h2 {
     }
     .testimonials {
         height: 65vh;
-        /* background-image: none; */
     }
     .positionCover {
         height: 82vh;
