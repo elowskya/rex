@@ -14,9 +14,11 @@ h1, h2, h3, h4, h5, h6 {
  .container {
     width: 100%;
     margin: 0 auto;
+    /* background-image: url("../images/computerSmaller.jpg"); */
     background-color: #12278d;
-    background-image: url("../images/handShake.jpg");
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
     color: #fff;
     text-align: center;
  }
@@ -24,8 +26,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1%;
  }
  #header img {
-    width: 12%;
+    width: 6%;
     border-radius: 80%;
+    background-color: white;
     position: absolute;
     left: 1%;
     top: 0;
@@ -49,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     text-align: center;
     position: relative;
-    padding-top: 3%;
  }
  #navigation ul {
     z-index: 1;
@@ -105,22 +107,15 @@ h1, h2, h3, h4, h5, h6 {
  }
 
  .insideMain {
-     margin: 5% 16% 3%;
-     padding: 2% 10%;
+     margin: 12% 10% 0;
+     padding: 1%;
      background-color: rgba(0, 0, 0, 0.6);
-     background-color: rgba(13, 22, 110, 0.575);
+     background-color: rgba(98, 200, 209, 0.7);
+     border-radius: 5px;
  }
 
  .insideMain h1 {
-     font-size: 550%;
-     padding-bottom: 3%;
-     border-bottom: 2px solid #fff;
-     margin-bottom: 5%;
- }
- .insideMain h2 {
-     color: #fff;
-     font-weight: 800;
-     padding-bottom: 2%;
+     font-size: 200%;
  }
 
  section.figIcons {
@@ -151,7 +146,7 @@ i:hover {
 }
 .carousel {
     margin: 0 auto;
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 .mySlides {
@@ -166,17 +161,17 @@ i:hover {
 .text {
     bottom: 0;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     color: white;
     text-align: center;
-    padding: 1% 0 3%;
+    padding: 1% 0 1%;
     position: absolute;
     background: rgba(74, 86, 197, 0.575);
 }
 .text h3 {
     padding: 1%;
     font-weight: 700;
-    font-size: 6vh;
+    font-size: 5vh;
 }
 .text p {
     font-size: 3vh;
@@ -267,7 +262,7 @@ i:hover {
     width: 100%;
     height: 100vh;
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 .testimonials h2 {
     font-weight: 600;
@@ -330,9 +325,10 @@ i:hover {
 
 footer {
     padding: 4% 8%;
-    background-repeat: none;
+    background-color: #12278d;
+    /* background-repeat: none;
     background-size: cover;
-    background-image: url("../images/handShakeFooter3.png");
+    background-image: url("../images/handShakeFooter3.png"); */
     color: white;
 }
 footer h2 {
@@ -340,10 +336,11 @@ footer h2 {
 }
 footer img.footerLogo {
     border-radius: 80%;
-    width: 15%;
-    margin-top: 2%;
+    width: 8%;
+    margin: 0;
     float: left;
-    margin-right: 2%;
+    background-color: white;
+    /* margin-right: 2%; */
 }
 
 address  {
